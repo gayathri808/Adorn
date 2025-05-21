@@ -17,11 +17,11 @@ const Navbar = () => {
             <div className="flex items-center">
               <Link to="/" className="text-2xl font-md text-gray-800">
                 {/* <img src={Logo} alt="logo" className="w-14 h-32 object-contain" /> */}
-                ADORN WITH TINA
+               AWT
               </Link>
             </div>
 
-            {/* <div className="hidden md:flex items-center space-x-8">
+            <div className="hidden md:flex items-center space-x-8">
               <Link to="/collections" className="text-gray-600 hover:text-gray-900">
                 Collections
               </Link>
@@ -37,7 +37,7 @@ const Navbar = () => {
               <Link to="/collections/bracelets" className="text-gray-600 hover:text-gray-900">
                 Bracelets
               </Link>
-            </div> */}
+            </div>
 
             <div className="flex items-center space-x-4">
               {/* <button className="text-gray-600 hover:text-gray-900">
